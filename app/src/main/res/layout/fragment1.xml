@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="#f03939"
+    android:text="您的下一次预约:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f03939"
+        android:textSize="25dp"
+        android:text="2018/10/18 15:00"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f03939"
+            android:textSize="25dp"
+            android:text="乐刻健身西直门店"/>
+
+        <Button
+            android:id="@+id/positionbtw"
+            android:layout_width="46dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="145dp"
+            android:background="@drawable/position" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f03939"
+        android:textSize="25dp"
+        android:text="腰腹塑形"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f03939"
+        android:textSize="25dp"
+        android:text="请您按时上课！"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageview_11"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:src="@drawable/book" />
+
+        <ImageView
+            android:id="@+id/mediaplayBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:src="@drawable/book1" />
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>
