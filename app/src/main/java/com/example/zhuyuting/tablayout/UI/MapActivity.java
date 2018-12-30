@@ -1,25 +1,4 @@
-package com.example.zhuyuting.tablayout;
-
-import android.Manifest;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.graphics.Color;
-import android.net.Uri;
-import android.os.Build;
-import android.os.Bundle;
-import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast;
-
-import com.baidu.location.BDLocation;
-import com.baidu.location.BDLocationListener;
-import com.baidu.location.LocationClient;
-import com.baidu.location.LocationClientOption;
-import com.baidu.mapapi.SDKInitializer;
-import com.baidu.mapapi.map.*;
-import com.baidu.mapapi.model.LatLng;
+package com.example.zhuyuting.tablayout.UI;
 
 //import permissions.dispatcher.NeedsPermission;
 //import permissions.dispatcher.OnNeverAskAgain;

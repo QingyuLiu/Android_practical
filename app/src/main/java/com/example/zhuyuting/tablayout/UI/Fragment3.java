@@ -1,4 +1,4 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.UI;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.zhuyuting.tablayout.R;
 
 public class Fragment3 extends Fragment {
     private Button btn1;

@@ -1,21 +1,23 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.UI;
+
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v4.app.FragmentActivity;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.zhuyuting.tablayout.R;
 
 import java.util.ArrayList;
 import java.util.concurrent.Executors;

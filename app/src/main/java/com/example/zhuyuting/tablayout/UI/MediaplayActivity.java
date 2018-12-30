@@ -1,13 +1,11 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.UI;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import java.util.ArrayList;
-import java.util.List;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnErrorListener;
 import android.media.MediaPlayer.OnPreparedListener;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +19,11 @@ import android.widget.MediaController;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.VideoView;
+
+import com.example.zhuyuting.tablayout.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MediaplayActivity extends AppCompatActivity {
     private ListView mListView;

@@ -1,7 +1,9 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.UI;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.example.zhuyuting.tablayout.R;
 
 public class GuideActivity extends AppCompatActivity {
 

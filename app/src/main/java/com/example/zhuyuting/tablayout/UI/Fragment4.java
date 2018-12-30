@@ -1,4 +1,4 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.UI;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.zhuyuting.tablayout.Entity.Person;
+import com.example.zhuyuting.tablayout.R;
 import com.squareup.picasso.Picasso;
 
 import cn.bmob.v3.BmobUser;
