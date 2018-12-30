@@ -1,4 +1,5 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.Entity;
+
 
 public class Coach {
     private String name;

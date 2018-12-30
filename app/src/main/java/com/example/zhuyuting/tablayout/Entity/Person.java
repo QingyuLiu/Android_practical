@@ -1,4 +1,4 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.Entity;
 
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobFile;

@@ -1,4 +1,4 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.CardView;
@@ -10,7 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
+import com.example.zhuyuting.tablayout.Entity.Coach;
+import com.example.zhuyuting.tablayout.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

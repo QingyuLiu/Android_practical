@@ -14,6 +14,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.zhuyuting.tablayout.Entity.Person;
+
 import java.util.List;
 
 import cn.bmob.v3.BmobQuery;

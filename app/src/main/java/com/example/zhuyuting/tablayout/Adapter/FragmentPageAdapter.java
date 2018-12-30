@@ -1,7 +1,12 @@
-package com.example.zhuyuting.tablayout;
+package com.example.zhuyuting.tablayout.Adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.zhuyuting.tablayout.Fragment1;
+import com.example.zhuyuting.tablayout.Fragment2;
+import com.example.zhuyuting.tablayout.Fragment3;
+import com.example.zhuyuting.tablayout.Fragment4;
 
 public class FragmentPageAdapter extends FragmentPagerAdapter {
     private String[] mTitles = new String[]{"首页", "团课", "商城","我的"};

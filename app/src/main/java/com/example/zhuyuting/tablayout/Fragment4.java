@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.zhuyuting.tablayout.Entity.Person;
 import com.squareup.picasso.Picasso;
 
 import cn.bmob.v3.BmobUser;

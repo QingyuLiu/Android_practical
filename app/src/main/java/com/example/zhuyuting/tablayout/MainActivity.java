@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.design.widget.TabLayout;
 import android.os.Bundle;
 
+import com.example.zhuyuting.tablayout.Adapter.FragmentPageAdapter;
+
 public class MainActivity extends AppCompatActivity {
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
