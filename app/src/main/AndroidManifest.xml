@@ -108,6 +108,7 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".UI.RegisterActivity" />
+        <activity android:name=".UI.BookTrainerActivity" />
         <activity android:name=".UI.MediaplayActivity" />
         <!-- 注册SDKActivity -->
         <activity
